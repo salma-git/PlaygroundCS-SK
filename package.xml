@@ -79,6 +79,8 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
+        <members>Sponsor__c.Travel_Sponsor__c</members>
+        <members>Sponsor__c.Type_of_Sponsor__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -129,6 +131,7 @@
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
+        <members>Sponsor__c</members>
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>User</members>
@@ -137,6 +140,7 @@
     </types>
     <types>
         <members>Book__c</members>
+        <members>Sponsor__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -202,6 +206,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Sponsor__c-Sponsor Layout</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
@@ -472,5 +477,13 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Sponsor__c.Email_to_Platinum_Sponsor</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Sponsor__c.Email when Platinum Sponsor is created</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>
